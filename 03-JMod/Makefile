@@ -1,15 +1,16 @@
 
 build: 
 	javac -d mods/com.zuehlke.tvm.hal.typea src/com.zuehlke.tvm.hal.typea/*.java 
+	javac -d mods/com.zuehlke.tvm.hal.typeb src/com.zuehlke.tvm.hal.typeb/*.java 
 	javac --module-path mods -d mods/com.zuehlke.tvm src/com.zuehlke.tvm/*.java 
 
 run: build
 	java --module-path mods -m com.zuehlke.tvm/com.zuehlke.tvm.Main
 
 clean:
-	rm -r lib
 	rm -r mods
 	rm -r com.zuehlke.tvm
+	rm -r lib
 	
 package: build
 	mkdir -p lib
