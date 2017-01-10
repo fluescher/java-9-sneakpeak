@@ -1,6 +1,6 @@
 package com.zuehlke.tvm;
 
-import com.zuehlke.tvm.hal.typea.Hardware;
+import com.zuehlke.tvm.hal.Hardware;
 
 public class Main {
 

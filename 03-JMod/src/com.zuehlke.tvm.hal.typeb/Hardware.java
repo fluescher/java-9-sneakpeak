@@ -1,6 +1,6 @@
-package com.zuehlke.tvm.hal.typea;
+package com.zuehlke.tvm.hal;
 
-import com.zuehlke.tvm.hal.typea.internal.Magic;
+import com.zuehlke.tvm.hal.internal.Magic;
 
 
 public class Hardware {

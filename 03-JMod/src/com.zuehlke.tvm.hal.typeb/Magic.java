@@ -1,4 +1,4 @@
-package com.zuehlke.tvm.hal.typea.internal;
+package com.zuehlke.tvm.hal.internal;
 
 public class Magic {
 	public static String name() {

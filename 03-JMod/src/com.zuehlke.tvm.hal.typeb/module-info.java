@@ -1,3 +1,3 @@
-module com.zuehlke.tvm.hal.typeb {
-	exports com.zuehlke.tvm.hal.typea;
+module com.zuehlke.tvm.hal {
+	exports com.zuehlke.tvm.hal;
 }
